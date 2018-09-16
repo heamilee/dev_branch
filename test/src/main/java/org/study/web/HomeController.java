@@ -63,4 +63,12 @@ public class HomeController {
 		//locale:언어,나라 등의 정보를 담고 있음,model:데이터베이스와의 연결을 위한 클래스
 		//리턴 타입 String
 	}
+	@RequestMapping(value = "/test3", method = RequestMethod.GET)
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("출력");
+		
+		//locale:언어,나라 등의 정보를 담고 있음,model:데이터베이스와의 연결을 위한 클래스
+		//리턴 타입 String
+	}
 }
